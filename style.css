@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  background-color: rgb(240, 247, 253);
+    overflow-x: hidden;
+
+}
+
+.tela1{
+    position: absolute;
+    border: solid rgba(255, 0, 0, 0) 2px;
+    width: 100%;
+    height: 976px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    position: relative;
+    border: solid rgba(255, 0, 0, 0) 2px;
+    width: 1700px;
+    height: 690px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: saturate(1.5);
+}
+
+.July, .Murilo, .John {
+    position: relative;
+    border: solid rgb(192, 192, 192) 0px;
+    border-radius: 40px 40px 40px 40px;
+    width: 310px;
+    height: 444px;
+    margin: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(-45deg,  rgba(157, 198, 255, 0.468),rgb(255, 240, 244) );
+    overflow: hidden;
+    
+}
+
+.foto{
+    position: relative;
+    width: 190px;
+    height: 190px;
+    border: solid rgb(237, 237, 237) 3px;
+    bottom: 100px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    filter: drop-shadow(10px 10px 15px rgba(121, 179, 255, 0.741));
+    box-shadow: -10px -10px 15px 3px rgba(255, 201, 208, 0.518);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.Murilo .foto img{
+    position: absolute;
+    left: -80px;
+}
+
+.elemento1{
+    background-color: rgba(255, 255, 255, 0.419);
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    top: 300px;
+    right: 120px;
+}
+
+.elemento2{
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+    top: 180px;
+    right: -0px;
+    border: solid rgba(255, 255, 255, 0.481) 30px;
+}
+
