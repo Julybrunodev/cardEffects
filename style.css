@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Roboto+Condensed:wght@300;700&display=swap');
 
 body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-     background-color: rgb(240, 247, 253);
+    background-color: rgb(240, 247, 253);
     overflow-x: hidden;
 
 }
@@ -34,29 +35,30 @@ body{
     position: relative;
     border: solid rgb(192, 192, 192) 0px;
     border-radius: 40px 40px 40px 40px;
-    width: 310px;
-    height: 470px;
+    width: 320px;
+    height: 500px;
     margin: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(-45deg,  rgba(157, 198, 255, 0.468),rgb(255, 240, 244) );
     overflow: hidden;
-    
 }
 
 .foto{
-    position: relative;
-    width: 175px;
-    height: 175px;
-    border: solid rgb(255, 255, 255) 3px;
-    bottom: 25%;
+    position: absolute;
+    width: 165px;
+    height: 165px;
+    border: solid rgba(110, 116, 184, 0.707) 3px;
+    top: 3%;
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
     filter: drop-shadow(10px 10px 15px rgba(121, 179, 255, 0.305));
     box-shadow: -10px -10px 15px 3px rgba(255, 201, 208, 0.386);
     overflow: hidden;
     z-index: 1;
+    user-select: none;
+    pointer-events: none;
 }
 
 .Murilo .foto img{
@@ -93,12 +95,12 @@ body{
 
 .about {
     position: absolute;
-    bottom: 5.2%;
+    bottom: 5%;
 }
 
-.about input{
+.about button{
     border: none;
-    padding: 9px 106px 9px 106px;
+    padding: 9px 108px 9px 108px;
     border-radius: 18px;
     background-image: linear-gradient(-45deg,  rgb(157, 178, 255),rgb(255, 240, 244) );
     color: rgb(255, 255, 255);
@@ -108,21 +110,62 @@ body{
     transition: 1s;
     filter: saturate(2);
     font-weight: 900;
+    cursor: pointer;
 }  
 
-.about input:hover{
+.about button:hover{
     color: rgb(255, 255, 255);
     transition: 0.5s;
     background-image: linear-gradient(-45deg,  rgb(157, 178, 255),rgb(255, 240, 244) );
     filter: saturate(4);
-    box-shadow: 0px 00px 12px 5px rgba(255, 255, 255, 0.661);
+    box-shadow: 0px 00px 12px 5px rgba(255, 255, 255, 0.313);
+
 }
 
 h1{
     position: absolute;
-    top: 45%;
+    top: 35%;
     z-index: 1;
     font-family: 'Nunito', sans-serif;
-    color: rgba(79, 84, 137, 0.707);
-  
+    color: rgba(110, 116, 184, 0.707);
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+h3{
+    position: absolute;
+    top: 41%;
+    font-family: 'Nunito', sans-serif;
+    color: rgba(166, 110, 173, 0.367);
+    font-size: 16.5px;
+    
+}
+
+.jobs, .likes{
+    position: relative;
+    top: 5%;
+    margin: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: rgba(29, 198, 156, 0.846);
+}
+
+.jobs span{
+    position: absolute;
+    top: 100%;
+    left: -3%;
+    font-size: 17px;
+    color: rgba(166, 110, 173, 0.367);
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.likes span{
+    position: absolute;
+    top: 100%;
+    left: 15%;
+    font-size: 17px;
+    color: rgba(166, 110, 173, 0.367);
+    font-family: 'Nunito', sans-serif;
 }
