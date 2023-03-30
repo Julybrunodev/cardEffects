@@ -7,7 +7,6 @@ body{
     padding: 0;
     background-color: rgb(240, 247, 253);
     overflow-x: hidden;
-
 }
 
 .tela1{
@@ -98,7 +97,7 @@ body{
     bottom: 5%;
 }
 
-.about button{
+.about input{
     border: none;
     padding: 9px 108px 9px 108px;
     border-radius: 18px;
@@ -113,13 +112,12 @@ body{
     cursor: pointer;
 }  
 
-.about button:hover{
+.about input:hover{
     color: rgb(255, 255, 255);
     transition: 0.5s;
     background-image: linear-gradient(-45deg,  rgb(157, 178, 255),rgb(255, 240, 244) );
     filter: saturate(4);
     box-shadow: 0px 00px 12px 5px rgba(255, 255, 255, 0.313);
-
 }
 
 h1{
@@ -138,7 +136,6 @@ h3{
     font-family: 'Nunito', sans-serif;
     color: rgba(166, 110, 173, 0.367);
     font-size: 16.5px;
-    
 }
 
 .jobs, .likes{
@@ -169,3 +166,20 @@ h3{
     color: rgba(166, 110, 173, 0.367);
     font-family: 'Nunito', sans-serif;
 }
+
+p{
+    position: absolute;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    bottom: 19%;
+    width: 250px;
+    color: rgba(140, 146, 206, 0.457);
+    font-weight: 700;
+}
+
+/*_____________________OpenCard_______________________*/
+
+
+
+
+
