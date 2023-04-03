@@ -1,5 +1,6 @@
 not finished
 
-![image](https://user-images.githubusercontent.com/77158409/228928015-0c2c40c5-abb0-4b66-8fbc-239fce75446e.png)
+![image](https://user-images.githubusercontent.com/77158409/229603365-7e16cc30-bc66-4f54-ac0c-2a5441f2a32b.png)
+
 
 # cardEffects
